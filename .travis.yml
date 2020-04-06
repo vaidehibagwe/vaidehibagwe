@@ -5,7 +5,7 @@ cache: pip
 install:
   - pip install codecov
 script:
-  - coverage run evenno.py
+  - coverage run even.py
   
 after_sucess:
   - codecov
