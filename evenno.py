@@ -13,4 +13,4 @@ while(num < len(list1)):
        print(list1[num], end = " ") 
       
     # increment num   
-    num = num + 1
+    num += 1
