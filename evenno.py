@@ -1,11 +1,10 @@
-# Python program to print Even Numbers in a List 
+# Python program to print Even Numbers in given range 
   
-# list of numbers 
-list1 = [10, 21, 4, 45, 66, 93] 
+start, end = 4, 19
   
 # iterating each number in list 
-for num in list1: 
+for num in range(start, end + 1): 
       
     # checking condition 
     if num % 2 == 0: 
-       print(num, end = " ")
+        print(num, end = " ") 
